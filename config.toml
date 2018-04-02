@@ -1,6 +1,6 @@
 # 此主题需要将存储文章的文件夹命名为 posts ,而不是 post 。
 
-baseURL = "https://qingely-hulogb.netlify.com/"
+baseURL = "https://qingely-hulogb.netlify.com"
 languageCode = "zh-cn"
 title = "青河船一"
 
