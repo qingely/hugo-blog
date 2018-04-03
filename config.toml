@@ -111,3 +111,6 @@ hasCJKLanguage = true
 
 [blackfriday]
   extensions = ["laxHtmlBlocks","noEmptyLineBeforeBlock"]
+  
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
