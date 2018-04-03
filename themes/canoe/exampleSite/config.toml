@@ -79,33 +79,36 @@ hasCJKLanguage = true
 
 #  友情链接 Your Friend's blog links
 [[menu.friend]]
-  name = "Frantic1048"
-  url = "https://frantic1048.logdown.com/"
+  name = "Kevin Tan"
+  url = "https://keyin.me"
 
 [[menu.friend]]
-  name = "HclMaster"
-  url = "https://hclmaster.github.io/"
+  name = "次碳酸钴"
+  url = "https://www.web-tinker.com"
 
 [[menu.friend]]
-  name = "WANG Hsü-Tung"
-  url = "https://whst.github.io/"
+  name = "小胡子哥"
+  url = "https://www.barretlee.com/entry/"
 
 
 # 社交账号 Social Network
 [[menu.social]]
   pre = "<svg class='svg-icons svg-icons-github'><use xlink:href='#svg-icons-github'></use></svg>"
   name = "Github"
-  url = "https://github.com/stkevintan"
+  url = "http://github.com/"
 
 [[menu.social]]
   pre = "<svg class='svg-icons svg-icons-twitter'><use xlink:href='#svg-icons-twitter'></use></svg>"
   name = "Twitter"
-  url = "https://twitter.com/kevinsfork"
+  url = "https://twitter.com/"
 
 [[menu.social]]
   pre = "<svg class='svg-icons svg-icons-sina-weibo'><use xlink:href='#svg-icons-sina-weibo'></use></svg>"
   name = "Weibo"
-  url = "http://weibo.com/kevinclasky"
+  url = "https://weibo.com/"
 
 [blackfriday]
   extensions = ["laxHtmlBlocks","noEmptyLineBeforeBlock"]
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
